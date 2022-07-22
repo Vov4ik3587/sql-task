@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/lib/codemirror.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/hint/show-hint.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/lint/lint.css?v=5.1.3">
-    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2881410937ltr&server=1">
+    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2751319429ltr&server=1">
     <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/printview.css?v=5.1.3" media="print" id="printcss">
     <title>localhost / localhost | phpMyAdmin 5.1.3</title>
     <script data-cfasync="false" type="text/javascript" src="js/vendor/jquery/jquery.min.js?v=5.1.3"></script>
@@ -260,7 +260,7 @@ $(function() {
       </div>
       <div id="pma_navigation_tree" class="list_container synced highlight autoexpand">
 
-  <div class="pma_quick_warp"><div class="drop_list"><button title="Недавние таблицы" class="drop_button btn">Недавнее</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=goods_picture">`clothes_shop`.`goods_picture`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=section">`clothes_shop`.`section`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=picture">`clothes_shop`.`picture`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=catalog">`clothes_shop`.`catalog`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=section_good">`clothes_shop`.`section_good`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=chat&table=messages">`chat`.`messages`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=chat&table=users">`chat`.`users`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=mysite&table=wp_posts">`mysite`.`wp_posts`</a></li></ul></div><div class="drop_list"><button title="Избранные таблицы" class="drop_button btn">Избранное</button><ul id="pma_favorite_list"><li class="warp_link">Нет избранных таблиц.</li></ul></div><div class="clearfloat"></div></div>
+  <div class="pma_quick_warp"><div class="drop_list"><button title="Недавние таблицы" class="drop_button btn">Недавнее</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=catalog">`clothes_shop`.`catalog`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=goods_picture">`clothes_shop`.`goods_picture`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=section">`clothes_shop`.`section`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=picture">`clothes_shop`.`picture`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=clothes_shop&table=section_good">`clothes_shop`.`section_good`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=chat&table=messages">`chat`.`messages`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=chat&table=users">`chat`.`users`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=mysite&table=wp_posts">`mysite`.`wp_posts`</a></li></ul></div><div class="drop_list"><button title="Избранные таблицы" class="drop_button btn">Избранное</button><ul id="pma_favorite_list"><li class="warp_link">Нет избранных таблиц.</li></ul></div><div class="clearfloat"></div></div>
 
 <div class="clearfloat"></div>
 
@@ -561,425 +561,7 @@ $.extend(defaultValues, {
                     <span class="hide" id="instructions-1">
                         Нажмите Enter для выполнения запроса                    </span>
                 </div>
-                                                            <div class="message history collapsed hide select"
-                            targetdb="clothes_shop" targettable="section">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `section`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="clothes_shop" targettable="section_good">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `section_good`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="clothes_shop" targettable="section">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `section`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="clothes_shop" targettable="picture">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `picture`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="clothes_shop" targettable="goods_picture">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `goods_picture`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="clothes_shop" targettable="goods_picture">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `goods_picture`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="clothes_shop" targettable="section">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `section`</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="clothes_shop" targettable="goods_picture">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">INSERT INTO `goods_picture`(`id_good`, `id_picture`) VALUES (1,1);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="clothes_shop" targettable="goods_picture">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">INSERT INTO `goods_picture`(`id_good`, `id_picture`) VALUES (1,2);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="clothes_shop" targettable="goods_picture">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">INSERT INTO `goods_picture`(`id_good`, `id_picture`) VALUES (1,3);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="clothes_shop" targettable="goods_picture">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Свернуть
-                    </span>
-                            <span class="action expand">
-            Развернуть
-                    </span>
-                            <span class="action requery">
-            Повторный запрос
-                    </span>
-                            <span class="action edit">
-            Изменить
-                    </span>
-                            <span class="action explain">
-            Анализировать
-                    </span>
-                            <span class="action profiling">
-            Профилирование
-                    </span>
-                            <span class="action bookmark">
-            Закладка
-                    </span>
-                            <span class="text failed">
-            Сбой выполнения запроса
-                    </span>
-                            <span class="text targetdb">
-            База данных
-                            : <span>clothes_shop</span>
-                    </span>
-                            <span class="text query_time">
-            Запрошенное время
-                            : <span>В течение текущей сессии</span>
-                    </span>
-            </div>
-                            <span class="query">INSERT INTO `goods_picture`(`id_good`, `id_picture`) VALUES (2,4);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
+                                                            <div class="message history collapsed hide"
                             targetdb="clothes_shop" targettable="goods_picture">
                             <div class="action_content">
                     <span class="action collapse">
@@ -1510,6 +1092,424 @@ $.extend(defaultValues, {
                     </span>
             </div>
                             <span class="query">SELECT * FROM `section`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="clothes_shop" targettable="catalog">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Свернуть
+                    </span>
+                            <span class="action expand">
+            Развернуть
+                    </span>
+                            <span class="action requery">
+            Повторный запрос
+                    </span>
+                            <span class="action edit">
+            Изменить
+                    </span>
+                            <span class="action explain">
+            Анализировать
+                    </span>
+                            <span class="action profiling">
+            Профилирование
+                    </span>
+                            <span class="action bookmark">
+            Закладка
+                    </span>
+                            <span class="text failed">
+            Сбой выполнения запроса
+                    </span>
+                            <span class="text targetdb">
+            База данных
+                            : <span>clothes_shop</span>
+                    </span>
+                            <span class="text query_time">
+            Запрошенное время
+                            : <span>В течение текущей сессии</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `catalog`</span>
                         </div>
                                                 </div><!-- console_message_container -->
             <div class="query_input">
